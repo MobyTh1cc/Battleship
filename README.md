@@ -3,7 +3,7 @@ battleship game in ejs
 the page localhost:1234 is for player 1 & page localhost:1234/p2 is for player 2
 functions in ejs:
 * ```function start()``` is being called when the player presses on the rady button. if the player didnt put 5 ships on the board he'll get a pop up warning him that he didnt put 5 ships, else the game will mark that he start and wait for the other player if the other player didnt press the ready button.
-* ```function rotate()`` is being called when the player presses the rotate button. when its called its rotates the ship 90 degrees.
+* ```function rotate()``` is being called when the player presses the rotate button. when its called its rotates the ship 90 degrees.
 * ```function hit(c)``` when a player lands a hit the function being called coloring the cell in red
 * ```function miss(c)``` when a player miss a ship the function being called coloring the cell in light grey
 * ```async function change(cell)``` being called when a player presses on a cell. if the game didnt start it will put the ship on the board. else, it will check if the player hit the enemy ship or miss it.
